@@ -21,7 +21,7 @@
 }
 /* banner section starts */
 #banner-first{
-    background-image: url("./images/Banner\ Image.png");
+    background-image: url("./images/BannerImage.png");
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,6 +190,12 @@ text-transform: capitalize;
 #invitation
 {
     margin: 30px 570px 110px 570px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
 }
 /* offer section */
 .offer
@@ -379,3 +385,67 @@ max-width: 900px;
     width: 414px;
     height: 440px;
  } */
+ .newsletter
+ {
+    margin-top: 40px;
+    margin-bottom: 20px;
+ }
+ .banner-newsletter
+ {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 600px;
+    align-items: center;
+ }
+ .icon{
+
+    text-align: center;
+    padding: 80px 0 20px 0;
+ }
+  .newsletter h3{
+ color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 38px;
+font-weight: 900;
+text-transform: capitalize;
+padding-bottom: 5px;
+  }
+  .newsletter p
+  {
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+padding: 5px 200px;
+line-height: 32px; 
+  }
+#news-btn
+  {
+color: #FFF;
+text-align: center;
+
+font-size: 14px;
+font-weight: 500;
+text-transform: capitalize;
+border-radius: 0 20px 20px 0;
+margin-left: -100px;
+height: 55px;
+}
+.news-form
+{
+    max-width: 600px;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Inter;
+}
+ form input{
+    width: 450px;
+    height: 54px;
+    border-radius: 20px;
+    border: none;
+    color: #FFF;
+    margin-left: 50px;
+    padding-left: 20px;
+}
