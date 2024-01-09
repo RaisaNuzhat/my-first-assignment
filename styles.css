@@ -263,3 +263,119 @@ margin: 10px 5px 10px 10px;
 {
     margin:10px 5px 10px 10px;
 }
+
+/* functional section */
+.functional
+{
+    margin-top:75px ;
+    align-items: center;
+}
+.functional h4{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+text-align: center;
+font-weight: 500;
+}
+.functional h1 span{
+color: #F00;
+text-align:center;
+font-family: Merriweather;
+font-size: 62px;
+font-weight: 900;
+margin-top: 10px;
+}
+.functional h1{
+color: #070211;
+font-family: Merriweather;
+font-size: 62px;
+font-style: normal;
+font-weight: 900;
+text-align: center;
+margin-top: -18px;
+}
+.functional p
+{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+}
+.portfolio
+{
+    margin-top: 70px;
+    align-items: left;
+}
+.portfolio h4
+{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+text-align: left;
+}
+.portfolio h2
+{
+color: #070211;
+font-family: Merriweather;
+font-size: 38px;
+font-weight: 900;
+text-transform: capitalize;
+text-align: left;
+margin-top: -18px;
+}
+.portfolio p{
+ color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+text-align: left;
+line-height: 32px; 
+max-width: 900px;
+}
+ /* images section */
+ #portfolio .row{
+    padding: 26px 0;
+    margin-bottom: 20px;
+}  
+#portfolio .img-card
+{
+    width: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    
+}
+.img-content
+{
+    transition: 1s;
+    cursor: pointer;
+}
+#portfolio .img-card img
+{
+    width: 100%;
+    display: block;
+   
+}
+#portfolio .img-card :hover.img-content
+{
+    transform: scale(1.1);
+}
+/* .images{
+    margin-top: 60px;
+}
+.img-content
+ {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+ } 
+ .images-content
+ {
+ border-radius: 16px;
+ }
+ .images-content img{
+    display: block;
+    width: 414px;
+    height: 440px;
+ } */
